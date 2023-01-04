@@ -33,7 +33,7 @@ def minar_bitcoins():
     
     numero_aleatorio = random.uniform(0, 1)
  
-    # Si el número es divisible por 7, simula que se ha encontrado un bloque
+    # Si el número es divisible por 17, simula que se ha encontrado un bloque
     if aleatorio % 17 == 0:
 
       print(Fore.GREEN+str(uuid.uuid4())+" | BTC Encontrados: "+ str(numero_aleatorio))
